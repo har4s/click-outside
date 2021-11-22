@@ -1,0 +1,48 @@
+{
+  "name": "@har4s/click-outside",
+  "version": "0.0.1",
+  "description": "A React Utility Component for handle click outside of children",
+  "main": "lib/index",
+  "homepage": "https://github.com/har4s/click-outside#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/har4s/click-outside"
+  },
+  "author": "Hares Khalvati",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "react",
+    "typescript",
+    "utility",
+    "component",
+    "onClick"
+  ],
+  "scripts": {
+    "prepare": "tsc",
+    "watch": "tsc -w"
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/react": "^17.0.36",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1",
+    "react": "^17.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "files": [
+    "lib/"
+  ],
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}
